@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_bg" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:alpha="0.6"
+        android:text="@string/city_pick"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/city_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="70dp"
+        android:alpha="0.6"
+        android:textColor="#ffffff"
+        android:textSize="70sp" />
+
+    <RelativeLayout
+        android:layout_height="70dp"
+        android:layout_width="700dp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true" >
+
+        <Spinner
+            android:id="@+id/province_spinner"
+            android:layout_width="230dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/hot_city_selector" />
+        
+        <Spinner
+            android:id="@+id/city_spinner"
+            android:layout_width="230dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/hot_city_selector" />
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:text="@string/hot_city"
+        android:alpha="0.5"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="60dp" />
+    
+    <GridView
+        android:id="@+id/hot_grid"
+        android:layout_height="280dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="100dp"
+        android:numColumns="7"
+        android:verticalSpacing="16dp"
+        android:listSelector="@drawable/hot_city_selector" />
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="60dp" >
+        
+        <CheckBox
+            android:id="@+id/auto_check"
+            android:layout_height="40dp"
+            android:layout_width="40dp" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="28sp"
+            android:textColor="#ffffff"
+            android:alpha="0.8"
+            android:text="@string/auto_city"
+            android:layout_gravity="center_vertical" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

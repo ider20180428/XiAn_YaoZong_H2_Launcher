@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+
+    <ImageView
+        android:id="@+id/tool_icon"
+        android:focusable="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    
+    <TextView
+        android:id="@+id/tool_label"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:singleLine="true"
+        android:focusable="false"
+        android:ellipsize="marquee"
+        android:layout_marginBottom="5dp"
+        android:marqueeRepeatLimit="marquee_forever" />
+    
+    
+    <ImageView
+        android:id="@+id/corner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/corner_new" />
+	 
+
+
+</FrameLayout>

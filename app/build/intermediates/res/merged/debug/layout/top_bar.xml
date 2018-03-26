@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ider="http://schemas.android.com/apk/res/com.ider.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+    
+    <com.box.views.MyDigitalClock
+        android:id="@+id/clock"
+        style="@style/TopBarText"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:textSize="30sp"
+        ider:format="kk:mm" />
+
+    <ImageView
+        android:id="@+id/net_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/wifi_no"
+        android:focusable="true"
+        android:visibility="gone"
+        android:layout_toLeftOf="@id/clock"
+        android:layout_marginRight="5dp" />
+    
+    <com.box.views.Weather
+        android:id="@+id/weather"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="27sp"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@id/net_state"
+        android:text="@string/Locating"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:focusable="true" />
+
+
+</RelativeLayout>

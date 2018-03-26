@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_bar3.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\top_bar3.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\boot_chooser.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\boot_chooser.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bgchange.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\activity_bgchange.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\key_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\key_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_dialog.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\add_dialog.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_chooser.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\tab_chooser.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clean_layout.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\clean_layout.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_myself.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\fragment_myself.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\dialog_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\meundialog.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\meundialog.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quick.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\activity_quick.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\downloaded_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\downloaded_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_list_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\app_list_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_apps.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\common_apps.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\city_picker.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\city_picker.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fast_key.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\fast_key.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_list.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\activity_app_list.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\common_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tools_fragment.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\tools_fragment.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\add_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_fragment.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\base_fragment.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_button.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\tab_button.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hot_city_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\hot_city_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_info.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\activity_app_info.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clean_layout2.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\clean_layout2.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_bar.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\top_bar.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_bar2.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\top_bar2.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_video.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\view_video.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_item.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\tool_item.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

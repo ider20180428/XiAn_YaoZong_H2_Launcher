@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:2:1-128:12
+	package
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:16:22-81
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:21:5-84
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:21:22-81
+application
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:24:5-126:19
+	android:label
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:27:9-41
+	android:allowBackup
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:26:9-45
+	android:largeHeap
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:28:9-33
+	android:theme
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:29:9-73
+activity#com.box.launcher.MainActivity
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:30:9-47:20
+	android:screenOrientation
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:34:13-50
+	android:label
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:32:13-45
+	android:launchMode
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:31:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER+android.intent.category.MONKEY
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:35:13-46:29
+action#android.intent.action.MAIN
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:41:16-68
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:41:24-65
+category#android.intent.category.DEFAULT
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:42:27-73
+category#android.intent.category.MONKEY
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:43:17-75
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:43:27-72
+category#android.intent.category.HOME
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:44:17-72
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:44:27-70
+category#android.intent.category.LAUNCHER
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:45:27-74
+activity#com.box.launcher.CityPicker
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:49:9-55:20
+	android:screenOrientation
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:51:13-50
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:50:13-55
+intent-filter#com.ider.citypicker
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:52:13-54:29
+action#com.ider.citypicker
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:53:17-62
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:53:25-59
+activity#box.cleansystem.StartActivity
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:58:9-64:20
+	android:theme
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:59:13-57
+intent-filter#com.ider.clean
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:61:13-63:29
+action#com.ider.clean
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:62:17-57
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:62:25-54
+activity#box.cleansystem.zzStartActivity
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:65:5-71:20
+	android:theme
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:66:13-59
+intent-filter#com.ider.clean2
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:68:13-70:29
+action#com.ider.clean2
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:69:17-58
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:69:25-55
+activity#com.box.launcher.AppListActivity
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:73:9-79:20
+	android:launchMode
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:75:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:74:13-60
+intent-filter#com.ider.applist
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:76:13-78:29
+action#com.ider.applist
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:77:17-59
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:77:25-56
+activity#com.box.launcher.FastKey
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:82:9-88:20
+	android:launchMode
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:84:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:83:13-52
+intent-filter#com.ider.fastkey
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:85:13-87:29
+action#com.ider.fastkey
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:86:17-59
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:86:25-56
+activity#com.box.launcher.BootChooser
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:91:9-98:20
+	android:launchMode
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:93:13-44
+	android:theme
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:92:13-56
+intent-filter#com.ider.bootchooser
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:95:13-97:29
+action#com.ider.bootchooser
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:96:17-63
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:96:25-60
+receiver#com.box.launcher.BootReceiver
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:100:9-104:20
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:100:19-63
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:101:13-103:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:102:17-79
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:102:25-76
+activity#com.box.launcher.CommonApp
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:106:9-110:20
+	android:label
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:108:13-60
+	android:theme
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:109:13-72
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:107:13-54
+activity#com.box.background.AppInfo
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:111:9-113:47
+	android:theme
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:112:13-54
+service#com.box.background.ConfigService
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:115:9-116:19
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:115:18-65
+activity#com.box.launcher.BgchangeActivity
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:118:9-121:20
+	android:label
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:120:13-60
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:119:13-61
+activity#com.box.launcher.QuickActivity
+ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:122:9-125:20
+	android:label
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:124:13-57
+	android:name
+		ADDED from E:\zhudedian\Android\IderLauncher_mini1\app\src\main\AndroidManifest.xml:123:13-58

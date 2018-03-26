@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyDigitalClock">
+        <attr name="format" format="string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ToolItem">
+        <attr name="tool_icon" format="reference" />
+        <attr name="tool_label" format="string"/>
+        <attr name="icon_width" format="integer"/>
+        <attr name="icon_height" format="integer"/>
+        <attr name="icon_full" format="boolean" />
+        <attr name="show_text_background" format="boolean" />
+        <attr name="background" format="reference" />
+        <attr name="isVertical" format="boolean"/>
+        <attr name="icon_hiden" format="integer"/>
+    </declare-styleable>
+    
+   
+    
+    <declare-styleable name="KeyItem">
+        <attr name="key_num" format="reference"/>
+        <attr name="key_icon" format="reference"/>
+    </declare-styleable>
+    
+      <declare-styleable name="TabButton">
+        <attr name="icon" format="reference" />
+        <attr name="icon_focus" format="reference" />
+        <attr name="text" format="reference" />
+    </declare-styleable>
+
+    
+</resources>

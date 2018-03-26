@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_color_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\location_color_selector.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_item_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\main_item_selector.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notify_icon.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\notify_icon.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apps_item_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\apps_item_selector.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dd_item_focus.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\dd_item_focus.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_foucd.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\bg_foucd.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zxymovie_zh.png",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\zxymovie_zh.png"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifycation_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\notifycation_selector.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_icon.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\setting_icon.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zxytv_zh.png",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\zxytv_zh.png"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hot_city_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\hot_city_selector.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_level.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\wifi_level.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clean_icon.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\clean_icon.xml"
+    }
+]

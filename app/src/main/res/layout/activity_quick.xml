@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ider="http://schemas.android.com/apk/res/com.ider.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+     >
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        style="@style/tab_text_style"
+        android:textSize="40sp"
+        android:focusable="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/shortcutp" />
+        
+         <com.box.views.ATool
+                android:id="@+id/tvmini"
+                android:layout_width="200dp"
+                android:layout_height="156dp"
+                android:layout_marginLeft="300dp"
+                android:focusable="true"
+                android:layout_toRightOf="@+id/tvbig"
+                android:layout_marginTop="300dp"
+               />
+            
+            <com.box.views.ATool
+                android:id="@+id/moviemini"
+                android:layout_width="200dp"
+                android:layout_height="156dp"
+                android:layout_marginLeft="320dp"
+                android:layout_toRightOf="@+id/tvmini"
+                  android:focusable="true"
+                android:layout_marginTop="300dp"
+               />
+</RelativeLayout>

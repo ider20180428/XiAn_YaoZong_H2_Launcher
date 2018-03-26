@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content" 
+     android:background="#0069ee"
+    >
+	    	<ListView
+	    	    android:layout_marginLeft="1dp"
+                android:id="@+id/dialog_list"
+                android:layout_width="324dp"
+                android:listSelector="@drawable/dd_item_focus"
+                android:layout_height="152dp"
+                android:layout_gravity="center"
+                 />
+</FrameLayout>

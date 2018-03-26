@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="888dp"
+    android:layout_height="631dp"
+    android:background="@drawable/add_bg" >
+    <TextView 
+        android:id="@+id/tv_chooser1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AutoApp"
+        android:textSize="30sp"
+        android:layout_marginTop="65dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"/>
+    <GridView
+        android:id="@+id/app_grid1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:numColumns="4"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:horizontalSpacing="60dp"
+        android:verticalSpacing="30dp"
+        android:layout_below="@id/tv_chooser1" />
+    
+    <com.box.views.FlyImageView
+        android:id="@+id/bord1"
+        android:layout_height="120dp"
+        android:layout_width="120dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@id/tv_chooser1"
+        android:background="@drawable/all_app_selecter" />
+    
+
+</RelativeLayout>
+

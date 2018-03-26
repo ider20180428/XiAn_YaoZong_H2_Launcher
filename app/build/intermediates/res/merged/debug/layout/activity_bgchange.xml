@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frambg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:text="@string/bgchange"
+    android:textStyle="italic"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:layout_gravity="center_horizontal"
+    />
+<Gallery 
+   android:gravity="bottom"
+   android:layout_marginTop="400dp"
+    android:id="@+id/gallery"
+    android:spacing="20dp"
+    android:padding="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+<FrameLayout
+     android:layout_marginTop="500dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+     >
+<TextView 
+    android:id="@+id/enter_bg"
+    android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/app_checker"
+    />
+ 
+ </FrameLayout>
+ 
+  <ImageView 
+        android:id="@+id/app_selector "
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/checked"
+       	android:visibility="gone" />
+</FrameLayout>

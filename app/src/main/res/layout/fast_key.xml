@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/key_background" xmlns:app="http://schemas.android.com/apk/res/com.ider.launcher">
+    
+    <com.box.views.FlyImageView
+        android:id="@+id/key_selector"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:src="@drawable/key_selecter"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="69dp" />
+    
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_1"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="70dp"
+        app:key_num="@drawable/num1"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_2"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="250dp"
+        app:key_num="@drawable/num2"
+        app:key_icon="@drawable/key_add" />
+    <com.box.views.KeyItem
+        android:id="@+id/key_3"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="430dp"
+        app:key_num="@drawable/num3"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_4"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginLeft="70dp"
+        app:key_num="@drawable/num4"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_5"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginLeft="250dp"
+        app:key_num="@drawable/num5"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_6"
+        android:layout_height="109dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginLeft="430dp"
+        app:key_num="@drawable/num6"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_7"
+        android:layout_height="110dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginLeft="70dp"
+        app:key_num="@drawable/num7"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_8"
+        android:layout_height="110dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginLeft="250dp"
+        app:key_num="@drawable/num8"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_9"
+        android:layout_height="110dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginLeft="430dp"
+        app:key_num="@drawable/num9"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_tv"
+        android:layout_height="110dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginLeft="70dp"
+        app:key_num="@drawable/key_tv"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_0"
+        android:layout_height="110dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginLeft="250dp"
+        app:key_num="@drawable/num0"
+        app:key_icon="@drawable/key_add" />
+    
+    <com.box.views.KeyItem
+        android:id="@+id/key_vod"
+        android:layout_height="110dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginLeft="430dp"
+        app:key_num="@drawable/key_vod"
+        app:key_icon="@drawable/key_add" />
+    
+
+</RelativeLayout>

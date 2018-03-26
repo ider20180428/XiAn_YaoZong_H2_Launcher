@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ider="http://schemas.android.com/apk/res/com.ider.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tabs_bg"
+    android:orientation="horizontal" >
+
+    <com.box.views.FlyImageView
+        android:id="@+id/tabselect_bar"
+        android:layout_width="214dp"
+        android:layout_height="94dp"
+        android:src="@drawable/select_bar" />
+
+    <LinearLayout
+        android:id="@+id/tab_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <com.box.views.TabButton
+            android:id="@+id/tab_recommend"
+            style="@style/TabButtonStyle"
+            ider:icon="@drawable/recommend0"
+            ider:icon_focus="@drawable/recommend1"
+            ider:text="@string/tab_tvlive" />
+
+        <com.box.views.TabButton
+            android:id="@+id/tab_video"
+            style="@style/TabButtonStyle"
+            ider:icon="@drawable/video0"
+            ider:icon_focus="@drawable/video1"
+            ider:text="@string/tab_video" />
+        
+        <com.box.views.TabButton
+            android:id="@+id/tab_educate"
+            style="@style/TabButtonStyle"
+            ider:icon="@drawable/educate0"
+            ider:icon_focus="@drawable/educate1"
+            ider:text="@string/tab_education" />
+
+        <com.box.views.TabButton
+            android:id="@+id/tab_game"
+            style="@style/TabButtonStyle"
+            ider:icon="@drawable/game0"
+            ider:icon_focus="@drawable/game1"
+            ider:text="@string/tab_game" />
+
+        <com.box.views.TabButton
+            android:id="@+id/tab_health"
+            style="@style/TabButtonStyle"
+            ider:icon="@drawable/health0"
+            ider:icon_focus="@drawable/health1"
+            ider:text="@string/tab_health" />
+
+        <com.box.views.TabButton
+            android:id="@+id/tab_tools"
+            style="@style/TabButtonStyle"
+            ider:icon="@drawable/tools0"
+            ider:icon_focus="@drawable/tools1"
+            ider:text="@string/tab_tools" />
+    </LinearLayout>
+
+</RelativeLayout>
