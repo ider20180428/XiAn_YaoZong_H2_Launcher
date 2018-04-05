@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_image_bg_selector.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\main_image_bg_selector.xml"
+    },
+    {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_color_selector.xml",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\location_color_selector.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dd_item_focus.xml",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\dd_item_focus.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_image_bg_focus.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable\\main_image_bg_focus.xml"
     },
     {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_foucd.xml",

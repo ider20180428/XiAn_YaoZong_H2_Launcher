@@ -1,9 +1,9 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_bgg"
+    android:id="@+id/main_bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backzxy1">
+    android:background="@drawable/main_bg">
 
 
     <com.box.views.StateBar2
@@ -22,20 +22,32 @@
         android:layout_height="80dp" />
 
     <ImageView
+        android:id="@+id/main_film_imageview"
         android:layout_gravity="left|center_vertical"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
+        android:padding="10dp"
         android:src="@drawable/film"
-        android:layout_width="80dp"
-        android:layout_height="80dp" />
+        android:focusable="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/main_image_bg_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
     <ImageView
+        android:id="@+id/main_tv_imageview"
         android:layout_gravity="left|center_vertical"
         android:layout_marginTop="-120dp"
         android:layout_marginLeft="40dp"
+        android:padding="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/main_image_bg_selector"
         android:src="@drawable/tv"
-        android:layout_width="80dp"
-        android:layout_height="80dp" />
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
 
 
@@ -59,7 +71,6 @@
           android:layout_height="94dp"
           android:layout_width="match_parent"
           android:layout_alignParentBottom="true" />
-
       -->
 
 

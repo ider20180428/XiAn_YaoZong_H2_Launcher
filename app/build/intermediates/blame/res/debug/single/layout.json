@@ -12,6 +12,10 @@
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\activity_bgchange.xml"
     },
     {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_widget_layout.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\time_widget_layout.xml"
+    },
+    {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\key_item.xml",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\key_item.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_video.xml",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\view_video.xml"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clock_layout.xml",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\layout\\clock_layout.xml"
     },
     {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_item.xml",

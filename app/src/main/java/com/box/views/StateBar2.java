@@ -2,6 +2,7 @@ package com.box.views;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -25,21 +26,21 @@ import box.utils.WeatherUtil;
 
 @SuppressLint("NewApi")
 public class StateBar2 extends RelativeLayout  {
-	Context context;
+	private Context context;
 	//ImageView notify;
-	ImageView weather_image;
-	ImageView netState;
-	FlyImageView focusBord;
-	AlwaysMarqueeTextView location;
-	TextView temperature,temperaturetext;
-	WeatherUtil weatherUtil;
-	static final int LOCATE_OVER = 100;
-	static final int WEATHER_OVER = 101;
-	static final int LOCATING = 102;
+	private ImageView weather_image;
+	private ImageView netState;
+	private FlyImageView focusBord;
+//	AlwaysMarqueeTextView location;
+    private TextView temperature,temperaturetext;
+	private WeatherUtil weatherUtil;
+	private static final int LOCATE_OVER = 100;
+	private static final int WEATHER_OVER = 101;
+	private static final int LOCATING = 102;
 	public static final String NOTIFY_COUNT = "system.ui.notification.count";
-	BadgeView badge; // 角标
-	PreferenceManager preManager;
-	DatabaseManager dbManager;
+	private BadgeView badge; // 角标
+	private PreferenceManager preManager;
+	private DatabaseManager dbManager;
 
 	public StateBar2(Context context) {
 		super(context);
@@ -63,7 +64,7 @@ public class StateBar2 extends RelativeLayout  {
 	public void initViews() {
 		//	notify = (ImageView) findViewById(R.id.notifycation);
 		weather_image = (ImageView) findViewById(R.id.weather);
-		location = (AlwaysMarqueeTextView) findViewById(R.id.location);
+//		location = (AlwaysMarqueeTextView) findViewById(location);
 	    TextView tempera = (TextView) findViewById(R.id.temperature);
         TextView temperatext = (TextView) findViewById(R.id.temperaturetext);
 
@@ -79,7 +80,7 @@ public class StateBar2 extends RelativeLayout  {
 		netState.setOnClickListener(onclicker);
 //		netState.setOnKeyListener(onKeyListener);
 		//	notify.setFocusable(false);
-		location.setFocusable(false);
+//		location.setFocusable(false);
 //		handler.postDelayed(new Runnable() {
 //			@Override
 //			public void run() {
@@ -97,7 +98,9 @@ public class StateBar2 extends RelativeLayout  {
 //			if(intent!=null) {
 //				getContext().startActivity(intent);
 //			}
-			Intent intent_more = new Intent("android.settings.SETTINGS");
+//			Intent intent_more = new Intent("android.settings.SETTINGS");
+			Intent intent_more = new Intent();
+			intent_more.setComponent(new ComponentName("com.zxy.idersettings","com.rk_itvui.settings.Settings"));
 			if(intent_more!=null)
 			getContext().startActivity(intent_more);
 		}
@@ -154,15 +157,15 @@ public class StateBar2 extends RelativeLayout  {
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 				case LOCATE_OVER:
-					location.setText(msg.obj.toString()+context.getString(R.string.welcome));
+//					location.setText(msg.obj.toString()+context.getString(R.string.welcome));
 					break;
 				case WEATHER_OVER:
 					displayWeather(msg.getData());
 					stopGetWeather();
 					break;
 				case LOCATING:
-					if (location.getText() == null)
-						location.setText(R.string.Locating);
+//					if (location.getText() == null)
+//						location.setText(R.string.Locating);
 					break;
 				default:
 					break;

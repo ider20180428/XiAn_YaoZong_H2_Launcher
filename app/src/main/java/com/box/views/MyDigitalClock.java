@@ -8,9 +8,7 @@ import android.os.SystemClock;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.util.AttributeSet;
-
 import com.ider.launcher.R;
-
 import java.util.Calendar;
 
 @SuppressWarnings("deprecation")

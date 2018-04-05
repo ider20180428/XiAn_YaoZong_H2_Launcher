@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="26"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
     format="8"
     plugin-version="2.2.3"
-    timestamp="609187705566819"
+    timestamp="4273098242938"
     token="-925197772391801266"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="724" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="566" />
+        duration="0" />
     <task
         name="verifier"
-        duration="110" />
+        duration="0" />
 
     <artifact
-        location="E:\zhudedian\Android\IderLauncher_mini1\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="609187705566819"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="4001050215195"
+        verifier="CLASS_ADDED" >
         <artifact
             location="E:\zhudedian\Android\IderLauncher_mini1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="4273098242938"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

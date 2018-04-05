@@ -48,12 +48,12 @@
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\up5.png"
     },
     {
-        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\notify_off.png",
-        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\notify_off.png"
-    },
-    {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\image_notify_yes.png",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\image_notify_yes.png"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\notify_off.png",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\notify_off.png"
     },
     {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\appinfo_background.png",
@@ -472,12 +472,12 @@
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\shelectdown2.png"
     },
     {
-        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\down4.png",
-        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\down4.png"
-    },
-    {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\function_back_focus.9.png",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\function_back_focus.9.png"
+    },
+    {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\down4.png",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\down4.png"
     },
     {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\weather_night_less_cloudy.png",

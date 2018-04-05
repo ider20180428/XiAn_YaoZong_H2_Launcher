@@ -26,7 +26,8 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.RelativeLayout;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.box.background.ConfigService;
 import com.box.background.Product;
@@ -70,16 +71,12 @@ public class MainActivity extends Activity {
     private FrameLayout main;
     private ConfigService configService; // ��̨���÷���
     boolean firstRun = false;
-    ;
-
     private String delpack = null;
-    // ÿһ�����µ�tag��������
     private List<String> tvliveData;
-    //	videoData, gameData, collectData, recentData,
-//			toolsData;
     public static boolean screenSaveroutUpload = false; // �յ������˳��Ĺ㲥�ع������Ϊtrue����ֹ�˳�����onResume�����ع�
     public boolean stopBack = false; // ����onStopʱ���Ϊtrue,��onStop����onResumeʱ�����ع⣬��ֹonCreate����
 
+    private ImageView imageViewTV,imageViewFilm;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -108,7 +105,6 @@ public class MainActivity extends Activity {
 //		if (ifBindConfigService()) {
 //			bindConfigService();
 //		}
-
         registReceivers();// �ع�һ��
         initViews();
         // showFragment(0);
@@ -145,15 +141,37 @@ public class MainActivity extends Activity {
         String pkgName = preferenceManager.getBootPackage();
         System.out.println("----------------pkg++++zxczx" + pkgName);
         ApplicationUtil.startApp(this, pkgName);
+
+
     }
 
     public void initViews() {
-        main = (FrameLayout) findViewById(R.id.main_bgg);
-        setingBg();
+        main = (FrameLayout) findViewById(R.id.main_bg);
+        imageViewTV = (ImageView)findViewById(R.id.main_tv_imageview);
+        imageViewFilm = (ImageView)findViewById(R.id.main_film_imageview);
+        imageViewTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this,"打开电视",Toast.LENGTH_SHORT).show();
+//                launchApp("com.qclive.tv");
+                /**HDP电视直播*/
+//hdpfans.com/hdp.player.LivePlayerNew
+                launchApp(new ComponentName("hdpfans.com","hdp.player.LivePlayerNew"));
+
+            }
+        });
+        imageViewFilm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this,"打开电影",Toast.LENGTH_SHORT).show();
+                launchApp("com.yidian.calendar");
+            }
+        });
+//        setingBg();
         stateBar = (StateBar2) findViewById(R.id.main_state_bar);
 //		tabsBar = (TabsBar) findViewById(R.id.tabs_bar);
-        initFragments();
-        openFragment(0);
+//        initFragments();
+//        openFragment(0);
     }
 
     public void setingBg() {
@@ -268,7 +286,7 @@ public class MainActivity extends Activity {
         super.onResume();
         stateBar.getWeather();
         System.out.println("------------onResume");
-        setingBg();
+//        setingBg();
         if (configService != null) {
             configService.checkUpdate();
         }
@@ -590,9 +608,6 @@ public class MainActivity extends Activity {
                 handler.postDelayed(key6Start, 1000);
                 if (config_pwd == 6) {
                     handler.removeCallbacks(key6Start);
-//					bindConfigService();
-//					// ������̨��������
-//					preferenceManager.setConfigServiceOn();
                 }
                 return true;
             } else {
@@ -604,7 +619,6 @@ public class MainActivity extends Activity {
                 }
             }
         } else if (keyCode == KeyEvent.KEYCODE_BACK) {
-//			fragments[0].hiddenbar();
             return true;
         } else if (keyCode == KeyEvent.KEYCODE_EISU) {
             startapplist();
@@ -775,4 +789,30 @@ public class MainActivity extends Activity {
 //		return line.getChildAt(currentIndex).getId();
 //	}
 
+    public void launchApp(String pkgName) {
+        try {
+            Intent intent = getPackageManager()
+                    .getLaunchIntentForPackage(pkgName);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+                    | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED
+                    | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void launchApp(ComponentName componentName) {
+        Intent intent = new Intent();
+        intent.setComponent(componentName);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+                | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED
+                | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+        try {
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

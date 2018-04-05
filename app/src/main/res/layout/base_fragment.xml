@@ -1,209 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ider="http://schemas.android.com/apk/res/com.ider.launcher"
-    android:id="@+id/sco_one"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+             xmlns:ider="http://schemas.android.com/apk/res/com.ider.launcher"
+             android:id="@+id/sco_one"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
 
     <LinearLayout
         android:id="@+id/scroll_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="40dp"
-         >
-		<LinearLayout
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:orientation="vertical">
-			<com.box.views.ATool
-				android:id="@+id/fragment1_item_s"
-				android:layout_width="331dip"
-				android:layout_height="243dip"
-				android:nextFocusDown="@+id/fragment1_item_a1"
-				android:nextFocusRight="@+id/fragment1_item_s"
-				ider:background="@drawable/zxytv_zh1"
-				android:nextFocusLeft="@id/fragment1_item_s" />
-
-			<com.box.views.ATool
-				android:id="@+id/fragment1_item_a1"
-				android:layout_width="331dip"
-				android:layout_height="243dip"
-				android:layout_marginTop="20dp"
-				android:nextFocusDown="@+id/fragment1_item_s"
-				android:nextFocusRight="@+id/fragment1_item_a1"
-				ider:background="@drawable/zxymovie_zh2"/>
-		</LinearLayout>
-
-		<com.box.views.ATool
-			android:id="@+id/fragment1_item_a2"
-			android:layout_width="match_parent"
-			android:layout_height="506dip"
-			android:layout_marginLeft="18dp"
-			android:layout_marginRight="50dp"
-			ider:background="@drawable/app_bg"
-			/>
-
-    <!--
-        <RelativeLayout
-            android:id="@+id/top_tools_container"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent" >
-
-            <com.box.views.ATool
-                android:id="@+id/fragment1_item_a2"
-                android:layout_width="200dp"
-                android:layout_height="160dp"
-                android:layout_toRightOf="@id/fragment1_item_a1"
-                android:layout_marginLeft="18dp"
-                ider:background="@drawable/app_gridview_bg08"
-				/>
-
-            <com.box.views.ATool
-                android:id="@+id/fragment1_custom_item_b1"
-                android:layout_width="200dp"
-                android:layout_height="160dp"
-                android:layout_toRightOf="@id/fragment1_item_a2"
-                android:layout_marginLeft="18dp"
-                ider:background="@drawable/app_gridview_bg08"
-               />
-            <com.box.views.ATool
-                android:id="@+id/fragment1_custom_item_b2"
-                android:layout_width="200dp"
-                android:layout_height="160dp"
-                android:layout_toRightOf="@id/fragment1_item_a1"
-                android:layout_below="@id/fragment1_item_a2"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="18dp"
-                ider:background="@drawable/app_gridview_bg08"
-               />
-        	<com.box.views.ATool
-                android:id="@+id/fragment1_custom_item_b3"
-                android:layout_width="200dp"
-                android:layout_height="160dp"
-                android:layout_toRightOf="@id/fragment1_custom_item_b2"
-                android:layout_below="@id/fragment1_custom_item_b1"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="18dp"
-                ider:background="@drawable/app_gridview_bg08"
-               />
-
-        	 <com.box.views.ATool
-                android:id="@+id/fragment1_custom_item_b4"
-                android:layout_width="200dp"
-                android:layout_height="160dp"
-                android:layout_toRightOf="@id/fragment1_item_a1"
-                android:layout_below="@id/fragment1_custom_item_b2"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="18dp"
-                 android:nextFocusDown="@+id/dishtype"
-                ider:background="@drawable/app_gridview_bg08"
-               />
-        	<com.box.views.ATool
-                android:id="@+id/fragment1_custom_item_b5"
-                android:layout_width="200dp"
-                android:layout_height="160dp"
-                android:layout_toRightOf="@id/fragment1_custom_item_b4"
-                 android:layout_below="@id/fragment1_custom_item_b3"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="18dp"
-                 android:nextFocusDown="@+id/dishtype"
-                ider:background="@drawable/app_gridview_bg08"
-               />
-        </RelativeLayout>
-        -->
-        <!--<TextView-->
-            <!--android:id="@+id/shortcut_tip"-->
-            <!--android:layout_width="250dp"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:textColor="@color/white"-->
-            <!--android:layout_gravity="center_horizontal"-->
-            <!--android:textSize="30sp"-->
-            <!--android:visibility="invisible"-->
-            <!--android:text="@string/App_tip2"-->
-            <!--android:layout_marginTop="10dp"-->
-            <!--android:focusable="false"-->
-             <!--/>-->
-       <!---->
-        
-    </LinearLayout>
-<!--
-<FrameLayout 
-    android:id="@+id/top_an"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="442dp"
-    android:background="@drawable/bgdown"
-    android:visibility="gone"
-    >
-		 <ImageView 
-            android:id="@+id/anim_iv2"
-            android:layout_width="wrap_content"  
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:src="@anim/animation2"
-            android:layout_gravity="top|center_horizontal"
-            />
-		<TextView 
-        	    android:layout_width="match_parent"
-        	    android:layout_height="30dp"
-        	    android:textSize="20sp"
-        	    android:text="@string/app_delete"
-        	    android:focusable="false"
-        	    android:focusableInTouchMode="false"
-        	    android:layout_marginLeft="20dp"
-        	    />
-    <HorizontalScrollView
-        android:id="@+id/my_hsv"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="100dp"
-        android:scrollbars="none"
+        android:orientation="horizontal"
         >
-        	
+
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_height="150dp"
-            
-            android:layout_width="wrap_content" >
-           		<GridView
-                    android:id="@+id/dishtype"
-                    android:layout_marginRight="20dp"
-                    android:paddingLeft="15dp"
-                    android:layout_width="fill_parent"
-                    android:layout_height="150dp"
-                    android:cacheColorHint="#00000000"
-                    android:columnWidth="150dp"
-                    android:focusable="true"
-                    android:focusableInTouchMode="true"
-                    android:gravity="center"
-                    android:nextFocusRight="@+id/dishtype"
-                    android:listSelector="@drawable/item_selector"
-                    android:horizontalSpacing="10dp"
-                    android:numColumns="auto_fit"
-                    android:stretchMode="spacingWidthUniform"
-                    >
-                </GridView>
-        </LinearLayout>
-    </HorizontalScrollView>
-     </FrameLayout>
-    <FrameLayout 
-        android:id="@+id/bottom_an"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@drawable/bgdown"
-        android:layout_marginTop="580dp"
-        >
-        <ImageView 
-            android:id="@+id/anim_iv"
-            android:layout_width="wrap_content"  
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@anim/animation1"
-            android:focusable="false"
-            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <com.box.views.ATool
+                android:id="@+id/fragment1_item_s"
+                android:layout_width="331dip"
+                android:layout_height="243dip"
+                android:nextFocusDown="@+id/fragment1_item_a1"
+                android:nextFocusLeft="@id/fragment1_item_s"
+                android:nextFocusRight="@+id/fragment1_item_s"
+                ider:background="@drawable/zxytv_zh1"/>
+
+            <com.box.views.ATool
+                android:id="@+id/fragment1_item_a1"
+                android:layout_width="331dip"
+                android:layout_height="243dip"
+                android:layout_marginTop="20dp"
+                android:nextFocusDown="@+id/fragment1_item_s"
+                android:nextFocusRight="@+id/fragment1_item_a1"
+                ider:background="@drawable/zxymovie_zh2"/>
+        </LinearLayout>
+
+        <com.box.views.ATool
+            android:id="@+id/fragment1_item_a2"
+            android:layout_width="match_parent"
+            android:layout_height="506dip"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="50dp"
+            ider:background="@drawable/app_bg"
             />
-    </FrameLayout>-->
+
+        <!--
+            <RelativeLayout
+                android:id="@+id/top_tools_container"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" >
+
+                <com.box.views.ATool
+                    android:id="@+id/fragment1_item_a2"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@id/fragment1_item_a1"
+                    android:layout_marginLeft="18dp"
+                    ider:background="@drawable/app_gridview_bg08"
+                    />
+
+                <com.box.views.ATool
+                    android:id="@+id/fragment1_custom_item_b1"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@id/fragment1_item_a2"
+                    android:layout_marginLeft="18dp"
+                    ider:background="@drawable/app_gridview_bg08"
+                   />
+                <com.box.views.ATool
+                    android:id="@+id/fragment1_custom_item_b2"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@id/fragment1_item_a1"
+                    android:layout_below="@id/fragment1_item_a2"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="18dp"
+                    ider:background="@drawable/app_gridview_bg08"
+                   />
+                <com.box.views.ATool
+                    android:id="@+id/fragment1_custom_item_b3"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@id/fragment1_custom_item_b2"
+                    android:layout_below="@id/fragment1_custom_item_b1"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="18dp"
+                    ider:background="@drawable/app_gridview_bg08"
+                   />
+
+                 <com.box.views.ATool
+                    android:id="@+id/fragment1_custom_item_b4"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@id/fragment1_item_a1"
+                    android:layout_below="@id/fragment1_custom_item_b2"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="18dp"
+                     android:nextFocusDown="@+id/dishtype"
+                    ider:background="@drawable/app_gridview_bg08"
+                   />
+                <com.box.views.ATool
+                    android:id="@+id/fragment1_custom_item_b5"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@id/fragment1_custom_item_b4"
+                     android:layout_below="@id/fragment1_custom_item_b3"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="18dp"
+                     android:nextFocusDown="@+id/dishtype"
+                    ider:background="@drawable/app_gridview_bg08"
+                   />
+            </RelativeLayout>
+            -->
+        <!--<TextView-->
+        <!--android:id="@+id/shortcut_tip"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textSize="30sp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:text="@string/App_tip2"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:focusable="false"-->
+        <!--/>-->
+        <!---->
+
+    </LinearLayout>
+    <!--
+    <FrameLayout
+        android:id="@+id/top_an"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="442dp"
+        android:background="@drawable/bgdown"
+        android:visibility="gone"
+        >
+             <ImageView
+                android:id="@+id/anim_iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@anim/animation2"
+                android:layout_gravity="top|center_horizontal"
+                />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="20sp"
+                    android:text="@string/app_delete"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginLeft="20dp"
+                    />
+        <HorizontalScrollView
+            android:id="@+id/my_hsv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="100dp"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="150dp"
+
+                android:layout_width="wrap_content" >
+                       <GridView
+                        android:id="@+id/dishtype"
+                        android:layout_marginRight="20dp"
+                        android:paddingLeft="15dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:cacheColorHint="#00000000"
+                        android:columnWidth="150dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:nextFocusRight="@+id/dishtype"
+                        android:listSelector="@drawable/item_selector"
+                        android:horizontalSpacing="10dp"
+                        android:numColumns="auto_fit"
+                        android:stretchMode="spacingWidthUniform"
+                        >
+                    </GridView>
+            </LinearLayout>
+        </HorizontalScrollView>
+         </FrameLayout>
+        <FrameLayout
+            android:id="@+id/bottom_an"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bgdown"
+            android:layout_marginTop="580dp"
+            >
+            <ImageView
+                android:id="@+id/anim_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@anim/animation1"
+                android:focusable="false"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>-->
 </FrameLayout>

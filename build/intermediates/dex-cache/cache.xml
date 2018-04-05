@@ -39,6 +39,42 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\okio-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\pre-dexed\debug\okio-1.4.0_bfa56341bce5ff5086218f9026e54b5d0de94d0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_7204f0d3449c674b3904cfa9a5a9723143e403cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\yunos-launcher-config2.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f88439a5f65680f99ab08e39a27dfba21e965778">
+        <dex dex="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\pre-dexed\debug\yunos-launcher-config2.1.4_8797d84208934f390e7ef93026dcbb67d37b49c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\okhttp-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_b008dc4fc198b2201e4d16a32483a5a4f2a4ae68.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\picasso-2.5.2.jar"
         jumboMode="false"
         optimize="true"
@@ -48,8 +84,26 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\androidstudio\androidSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_5756b243576fdda36a096442ffbcd3334ce4e843.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\android-viewbadger.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="E:\zhudedian\Android\IderLauncher_mini1\app\build\intermediates\pre-dexed\debug\android-viewbadger_87b1d241bbed962a80272543a51bb96554d339af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\zhudedian\Android\IderLauncher_mini1\app\libs\android-viewbadger.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f1303b50d535716ca7601c5014357b8435658313">
