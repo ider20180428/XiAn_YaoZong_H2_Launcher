@@ -134,6 +134,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+        stateBar.updateWifiApInfo();
 
     }
 
@@ -155,8 +156,9 @@ public class MainActivity extends Activity {
 //                Toast.makeText(MainActivity.this,"打开电视",Toast.LENGTH_SHORT).show();
 //                launchApp("com.qclive.tv");
                 /**HDP电视直播*/
-//hdpfans.com/hdp.player.LivePlayerNew
-                launchApp(new ComponentName("hdpfans.com","hdp.player.LivePlayerNew"));
+//                launchApp(new ComponentName("hdpfans.com","hdp.player.LivePlayerNew"));
+                /**com.qclive.tv/.MainActivity  METV*/
+                launchApp(new ComponentName("com.qclive.tv","com.qclive.tv.MainActivity"));
 
             }
         });

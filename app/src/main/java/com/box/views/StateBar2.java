@@ -6,6 +6,9 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -17,6 +20,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.box.launcher.WifiApManager;
+import com.box.launcher.WifiHost;
 import com.ider.launcher.R;
 import com.readystatesoftware.viewbadger.BadgeView;
 
@@ -41,6 +46,7 @@ public class StateBar2 extends RelativeLayout  {
 	private BadgeView badge; // 角标
 	private PreferenceManager preManager;
 	private DatabaseManager dbManager;
+	private  TextView wifiHotSSID,wifiHotPwd;
 
 	public StateBar2(Context context) {
 		super(context);
@@ -65,8 +71,9 @@ public class StateBar2 extends RelativeLayout  {
 		//	notify = (ImageView) findViewById(R.id.notifycation);
 		weather_image = (ImageView) findViewById(R.id.weather);
 //		location = (AlwaysMarqueeTextView) findViewById(location);
-	    TextView tempera = (TextView) findViewById(R.id.temperature);
-        TextView temperatext = (TextView) findViewById(R.id.temperaturetext);
+		wifiHotSSID= (TextView) findViewById(R.id.temperature);
+		wifiHotPwd = (TextView) findViewById(R.id.temperaturetext);
+
 
         SharedPreferences sp=context.getSharedPreferences("wifi_ssid",Context.MODE_WORLD_READABLE+Context.MODE_WORLD_WRITEABLE);
         String ssid=sp.getString("Ssid","");
@@ -75,7 +82,7 @@ public class StateBar2 extends RelativeLayout  {
 //		WifiManager mWifiManager=(WifiManager)context.getSystemService(Context.WIFI_SERVICE);
 //		WifiInfo mWifiInfo =mWifiManager.getConnectionInfo();
 //		String wifi=mWifiInfo.getSSID();
-//		temperature.setText((R.string.wifi_account));
+
 		netState = (ImageView) findViewById(R.id.net_state);
 		netState.setOnClickListener(onclicker);
 //		netState.setOnKeyListener(onKeyListener);
@@ -88,7 +95,54 @@ public class StateBar2 extends RelativeLayout  {
 //			//	location.setFocusable(true);
 //			}
 //		}, 3000);
+
+		updateWifiApInfo();
 	}
+
+	public static final int WIFI_AP_STATE_DISABLING = 10;
+	public static final int WIFI_AP_STATE_DISABLED = 11;
+	public static final int WIFI_AP_STATE_ENABLING = 12;
+	public static final int WIFI_AP_STATE_ENABLED = 13;
+	public static final int WIFI_AP_STATE_FAILED = 14;
+
+	private WifiManager mWifiManager;
+	private WifiApManager wifiApManager;
+	private WifiConfiguration wifiConfiguration;
+	private final static String WIFI_AP_SSID="IDER";
+	private final static String WIFI_AP_PWD="123456789";
+
+	public void updateWifiApInfo(){
+
+		mWifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+		wifiApManager=new WifiApManager(context);
+		wifiConfiguration=wifiApManager.getWifiApConfiguration();
+		boolean wifiEnable=mWifiManager.isWifiEnabled();
+
+		if(null!=wifiConfiguration){
+			String wifiApSSIDString=String.format(wifiConfiguration.SSID);
+			String wifiAPPwdString=String.format(wifiConfiguration.preSharedKey);
+			wifiHotSSID.setText("wifi账号："+wifiApSSIDString);
+			wifiHotPwd.setText("wifi密码："+wifiAPPwdString);
+		}else {
+			wifiConfiguration=new WifiConfiguration();
+			wifiConfiguration.SSID=WIFI_AP_SSID;
+			wifiConfiguration.preSharedKey=WIFI_AP_PWD;
+			wifiConfiguration.allowedKeyManagement.set(WifiConfiguration.KeyMgmt.WPA_PSK);
+			wifiHotSSID.setText("wifi账号："+WIFI_AP_SSID);
+			wifiHotPwd.setText("wifi密码："+WIFI_AP_PWD);
+		}
+
+		if (wifiApManager.getWifiApState()!=WIFI_AP_STATE_ENABLED){
+			boolean wifiConfigAble= wifiApManager.setWifiApConfiguration(wifiConfiguration);
+			boolean wifihotEnable=wifiApManager.setWifiApEnabled(wifiConfiguration,true);
+//			Log.d("zhaoyf++++++","wifi热点设置：SSID="+wifiConfiguration.SSID+"密码="+wifiConfiguration.preSharedKey);
+//			Log.d("zhaoyf++++++++++++++","wifi热点设置好了吗？"+wifiConfigAble);
+//			Log.d("zhaoyf+++++++++++","wifi热点打开了吗？"+wifihotEnable);
+		}
+
+	}
+
+
 
 
 	OnClickListener onclicker=new OnClickListener() {

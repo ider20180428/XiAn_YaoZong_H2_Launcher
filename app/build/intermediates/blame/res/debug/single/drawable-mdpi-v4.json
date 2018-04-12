@@ -12,6 +12,10 @@
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\backzxy4.jpg"
     },
     {
+        "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_main.jpg",
+        "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\bg_main.jpg"
+    },
+    {
         "merged": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\main_bg.jpg",
         "source": "E:\\zhudedian\\Android\\IderLauncher_mini1\\app\\src\\main\\res\\drawable-mdpi\\main_bg.jpg"
     },

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:ider="http://schemas.android.com/apk/res/com.ider.launcher"
+             android:orientation="horizontal"
              android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:gravity="right|center_vertical"
+             android:layout_height="100dp">
 
     <com.box.views.AlwaysMarqueeTextView
         android:id="@+id/location"
@@ -23,52 +25,12 @@
         android:visibility="gone"/>
 
 
-    <ImageView
-        android:id="@+id/net_state"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_gravity="top|right"
-        android:layout_marginRight="200dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/bg_foucd"
-        android:focusable="true"
-        android:src="@drawable/setup"/>
-
-    <LinearLayout
-        android:id="@+id/np_l"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|right"
-        android:layout_marginRight="80dp"
-        android:layout_marginTop="30dip"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/temperature"
-            style="@style/TopBarText"
-            android:visibility="gone"
-            android:text="@string/wifi_account"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:id="@+id/temperaturetext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:text="@string/wifi_pwd"
-            android:textColor="@color/white"
-            android:textSize="20sp"/>
-    </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="30dp"
-        android:paddingRight="30dp"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <ImageView
@@ -112,5 +74,39 @@
 
 
     </LinearLayout>
+    <ImageView
+        android:id="@+id/net_state"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_foucd"
+        android:focusable="true"
+        android:src="@drawable/setup"/>
 
-</FrameLayout>
+    <LinearLayout
+        android:id="@+id/np_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/temperature"
+            style="@style/TopBarText"
+            android:gravity="left"
+            android:text="@string/wifi_account"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/temperaturetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/wifi_pwd"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
