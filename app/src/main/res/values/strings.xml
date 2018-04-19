@@ -78,7 +78,7 @@
     <string name="TVapp">请选择看电视启动的应用</string>
     <string name="MOVIEapp">请选择看电影启动的应用</string>
     <string name="bg_settings">成功设置为背景</string>
-    <string name="wifi_account">账户:IDER</string>
-    <string name="wifi_pwd">密码:IDER</string>
+    <string name="wifi_account"></string>
+    <string name="wifi_pwd"></string>
     <string name="welcome">,欢迎你！</string>
 </resources>

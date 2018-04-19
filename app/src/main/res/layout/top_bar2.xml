@@ -35,8 +35,9 @@
 
         <ImageView
             android:id="@+id/weather"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:src="@drawable/fine"/>
 
         <com.box.views.MyClock

@@ -19,14 +19,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.ider.launcher.R;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
-
 import java.io.File;
 import java.io.IOException;
-
 import box.database.DatabaseManager;
 import box.utils.PreferenceManager;
 import box.utils.RoundCornerTransform;

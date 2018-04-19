@@ -28,7 +28,6 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.box.background.ConfigService;
 import com.box.background.Product;
 import com.box.fragments.BaseFragment;
@@ -134,16 +133,15 @@ public class MainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        stateBar.updateWifiApInfo();
-
+        if (NetUtil.isEthernetConnect(this)){
+            stateBar.updateWifiApInfo();
+        }
     }
 
     public void startbootlauncher() {
         String pkgName = preferenceManager.getBootPackage();
         System.out.println("----------------pkg++++zxczx" + pkgName);
         ApplicationUtil.startApp(this, pkgName);
-
-
     }
 
     public void initViews() {
@@ -309,7 +307,7 @@ public class MainActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         unRegistReceivers();
-
+        stateBar.destory();
     }
 
     public void registReceivers() {

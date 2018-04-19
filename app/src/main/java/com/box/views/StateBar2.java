@@ -2,9 +2,11 @@ package com.box.views;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiInfo;
@@ -26,6 +28,7 @@ import com.ider.launcher.R;
 import com.readystatesoftware.viewbadger.BadgeView;
 
 import box.database.DatabaseManager;
+import box.utils.NetUtil;
 import box.utils.PreferenceManager;
 import box.utils.WeatherUtil;
 
@@ -95,8 +98,7 @@ public class StateBar2 extends RelativeLayout  {
 //			//	location.setFocusable(true);
 //			}
 //		}, 3000);
-
-		updateWifiApInfo();
+		registeservers();
 	}
 
 	public static final int WIFI_AP_STATE_DISABLING = 10;
@@ -204,6 +206,8 @@ public class StateBar2 extends RelativeLayout  {
 
 	}
 
+	private int getWeatherCounts=0;
+
 	@SuppressLint("HandlerLeak")
 	Handler handler = new Handler() {
 
@@ -212,14 +216,22 @@ public class StateBar2 extends RelativeLayout  {
 			switch (msg.what) {
 				case LOCATE_OVER:
 //					location.setText(msg.obj.toString()+context.getString(R.string.welcome));
+					getWeatherCounts++;
+					Log.d("zhaoyf++++++++定位==",msg.obj.toString());
+					if (getWeatherCounts>3){
+						weather.stop();
+					}
 					break;
 				case WEATHER_OVER:
+					Bundle bundle=msg.getData();
+					Log.d("zhaoyf++++++++天气==",bundle.getString(weatherUtil.STATUS)+bundle.getString(WeatherUtil.TEMPERATURE));
 					displayWeather(msg.getData());
 					stopGetWeather();
 					break;
 				case LOCATING:
 //					if (location.getText() == null)
 //						location.setText(R.string.Locating);
+
 					break;
 				default:
 					break;
@@ -428,7 +440,51 @@ public class StateBar2 extends RelativeLayout  {
 			badge.hide();
 		}
 	}
-	
-	
+
+	private void registeservers() {
+		IntentFilter filter;
+
+		filter = new IntentFilter();
+		filter.addAction(NetUtil.CONNECTIVITY_CHANGE);
+		filter.addAction(NetUtil.RSSI_CHANGE);
+		filter.addAction(NetUtil.WIFI_STATE_CHANGE);
+		context.registerReceiver(netReceiver, filter);
+
+
+	}
+
+	BroadcastReceiver netReceiver = new BroadcastReceiver() {
+
+		@Override
+		public void onReceive(Context context, Intent intent) {
+
+			String action = intent.getAction();
+			if (NetUtil.CONNECTIVITY_CHANGE.equals(action)) {
+				updateNetState(context);
+			}
+		}
+	};
+
+	private void  updateNetState(Context context){
+		if (NetUtil.isNetworkAvailable(context)) {
+			if(NetUtil.isEthernetConnect(context)) {
+				//开启热点
+				updateWifiApInfo();
+			} else {
+				//WiFi已连接
+				wifiHotSSID.setText("Wifi已连接");
+				wifiHotPwd.setText("");
+			}
+
+		} else {
+			//提示有线网络未连接
+			wifiHotSSID.setText("有线网络未连接");
+			wifiHotPwd.setText("");
+		}
+	}
+
+	public void destory(){
+		context.unregisterReceiver(netReceiver);
+	}
 
 }

@@ -27,7 +27,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:src="@drawable/film"
+        android:src="@drawable/film_dianbo"
         android:focusable="true"
         android:clickable="true"
         android:focusableInTouchMode="true"
