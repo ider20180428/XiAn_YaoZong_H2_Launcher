@@ -20,78 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71598921-05d0-41c5-bdbc-26a71f55b023" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ider/launcher/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ider/launcher/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/box/adapter/CustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/box/adapter/CustomAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/box/adapter/SelfGridAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/box/adapter/SelfGridAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$DownloadThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo$DownloadThread.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/background/AppInfo.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/fragments/BaseFragment$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/fragments/BaseFragment$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/fragments/BaseFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/fragments/BaseFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/ApplicationUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/ApplicationUtil.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/FastKey.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/FastKey.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$8.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity$9.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/launcher/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/ATool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/ATool.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/DownloadAppView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/DownloadAppView.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/KeyItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/KeyItem.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2$WeatherRunnable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2$WeatherRunnable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/box/views/StateBar2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$drawable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$menu.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$raw.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ider/launcher/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/RJLcH6fY0_sFedPIahh+l1ELdZc=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/RJLcH6fY0_sFedPIahh+l1ELdZc=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_72b1406e2a095f16c3e3c074faf6080a02e640dc.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_72b1406e2a095f16c3e3c074faf6080a02e640dc.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/clock_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/clock_layout.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/top_bar2.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/top_bar2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/a.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/a.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/box/background/AppInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/box/background/AppInfo.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/box/launcher/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/box/launcher/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/box/views/StateBar2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/box/views/StateBar2.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/clock_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/clock_layout.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/top_bar2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/top_bar2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -150,8 +79,8 @@
       <file leaf-file-name="StateBar2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/box/views/StateBar2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="126" column="58" lean-forward="true" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
+            <state relative-caret-position="510">
+              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1746#1747#0" expanded="true" />
@@ -1979,16 +1908,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/box/util/NetUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/clock_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/box/views/StateBar2.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/box/background/AppInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/box/launcher/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/top_bar2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/box/views/StateBar2.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="4" />
     <option name="width" value="1938" />
@@ -2289,7 +2218,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="4" width="1938" height="1040" extended-state="1" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2302,12 +2231,12 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23205742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7966507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25323975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56578946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2745,8 +2674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/box/views/StateBar2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="126" column="58" lean-forward="true" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
+        <state relative-caret-position="510">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1746#1747#0" expanded="true" />
